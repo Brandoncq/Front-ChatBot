@@ -65,7 +65,6 @@ function App() {
           headers: {
             "Content-Type": "application/json",
           },
-          credentials: "include",
           body: JSON.stringify({
             message: input,
             session_id: sessionId,
